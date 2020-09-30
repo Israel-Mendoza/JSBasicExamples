@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using forms</title>
+</head>
+
+<body>
+
+    <form id="signup-form">
+        <label for="creditcard">Username: </label>
+        <input type="text" name="creditcard" id="creditcard" placeholder="XXXX-XXXX-XXXX-XXXX"><br><br>
+        <label for="soulSold">I agree to sell my soul to your company: </label>
+        <input type="checkbox" id="soulSold" name="soulSold"><br><br>
+        <p>Choose a vegetable: </p>
+        <select name="vegetable" id="vegetable">
+            <option value="eggplant">Eggplant</option>
+            <option value="lettuce">Lettuce</option>
+            <option value="carrot">Carrot</option>
+        </select><br><br>
+        <input type="submit" name="submit" id="submit">
+
+    </form>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

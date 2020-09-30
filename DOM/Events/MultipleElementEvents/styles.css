@@ -1,0 +1,14 @@
+div {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    text-align: center;
+}
+
+#titles {
+    text-align: center;
+}
+
+#boxes {
+    text-align: center;
+}
